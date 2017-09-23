@@ -1,6 +1,6 @@
 # CSS Grids
 
-See [demo](isuweb.github.io/grid). Hosted with GitHub Pages.
+See [demo](https://isuweb.github.io/grid). Hosted with GitHub Pages.
 
 Learn more about CSS Grids:
 
