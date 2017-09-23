@@ -1,0 +1,29 @@
+@media (min-width:700px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 100%;
+        grid-gap: 1em;
+        grid-template-areas:   
+            "header header"
+            "hero hero"
+            "sidebar content"
+        ;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    #hero {
+        grid-area: hero;
+    }
+
+    .navigation {
+        grid-area: sidebar;
+    }
+
+    article {
+        grid-area: content;
+    }
+}

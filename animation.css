@@ -1,0 +1,25 @@
+#hero {
+    animation: growin 1s cubic-bezier(0.075, 0.82, 0.165, 1);    
+}
+
+@keyframes growin {
+    from {
+        opacity: .5;
+        transform: scale(0);
+    }
+  
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+  
+    to {
+        opacity: 100;
+    }
+}
